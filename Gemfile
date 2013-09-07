@@ -10,12 +10,14 @@ gem 'jbuilder', '~> 1.2'
 gem 'devise'
 gem 'figaro'
 gem 'less-rails'
-gem 'mysql2'
+
 gem 'simple_form', '>= 3.0.0.rc'
 gem 'therubyracer', :platform=>:ruby
 gem 'thin'
 gem 'twitter-bootstrap-rails'
+gem 'pg'
 group :development do
+	gem 'mysql2'
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
   gem 'hub', :require=>nil
