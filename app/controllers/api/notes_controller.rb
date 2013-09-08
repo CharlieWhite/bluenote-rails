@@ -22,6 +22,6 @@ class Api::NotesController < Api::ApiController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def note_params
-      params[:note].permit(:message, :user_id)
+      params[:note].permit(:message, :user_id, :from_user_id)
     end
 end
