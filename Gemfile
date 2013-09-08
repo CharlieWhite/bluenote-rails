@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'devise'
 gem 'figaro'
 gem 'less-rails'
+gem "active_model_serializers", "~> 0.8.0"
 
 gem 'simple_form', '>= 3.0.0.rc'
 gem 'therubyracer', :platform=>:ruby
