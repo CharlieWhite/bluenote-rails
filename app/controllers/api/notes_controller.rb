@@ -1,7 +1,7 @@
 class Api::NotesController < Api::ApiController
 
 	def index
-		@notes = current_user.private_feed
+		@notes = Note.all#current_user.private_feed
 		respond_with @notes
 	end
 
