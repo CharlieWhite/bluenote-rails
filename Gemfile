@@ -17,6 +17,8 @@ gem 'therubyracer', :platform=>:ruby
 gem 'thin'
 gem 'twitter-bootstrap-rails'
 gem 'pg'
+gem "fog", "~> 1.3.1"
+
 group :development do
 	gem 'mysql2'
   gem 'better_errors'
