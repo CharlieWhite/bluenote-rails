@@ -10,7 +10,7 @@ class Api::NotesController < Api::ApiController
 	end
 
 	def create
-		@note = Note.new(note_params)
+		@note = Note.create(note_params)
 		respond_with(@note)
 	end
 
