@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130908000130) do
+ActiveRecord::Schema.define(version: 20130908040246) do
 
   create_table "notes", force: true do |t|
     t.string   "message"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 20130908000130) do
     t.datetime "updated_at"
     t.string   "name"
     t.boolean  "at_home"
+    t.string   "avatar"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
